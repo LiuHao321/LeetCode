@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6d176f31-edf2-4db8-887b-07bd5b228e2a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1631/1631.go" beforeDir="false" afterPath="$PROJECT_DIR$/1631/1631.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/1.go" beforeDir="false" afterPath="$PROJECT_DIR$/1/two-sum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/146/146.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2/2.go" beforeDir="false" afterPath="$PROJECT_DIR$/2/add-two-numbers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/206/206.go" beforeDir="false" afterPath="$PROJECT_DIR$/206/reverse-linked-list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/237/delete-node-in-a-linked-list.go" beforeDir="false" afterPath="$PROJECT_DIR$/237/delete-node-in-a-linked-list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/select.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/select.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,68 +43,70 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\XiaomiPC\go\src\LeetCode\704" />
       <recent name="C:\Users\XiaomiPC\go\src\LeetCode" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\XiaomiPC\go\src\LeetCode\674" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build LeetCode/697">
-    <configuration name="go build LeetCode/485" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build LeetCode/test1">
+    <configuration name="go build LeetCode/704" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/485/485.go" />
-      <package value="LeetCode/485" />
+      <filePath value="$PROJECT_DIR$/704/704.go" />
+      <package value="LeetCode/704" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build LeetCode/561" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build LeetCode/offer/53" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/561/561.go" />
-      <package value="LeetCode/561" />
+      <filePath value="$PROJECT_DIR$/offer/53/53.go" />
+      <package value="LeetCode/offer/53" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build LeetCode/566" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build LeetCode/sort" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/566/566.go" />
-      <package value="LeetCode/566" />
+      <filePath value="$PROJECT_DIR$/sort/quick.go" />
+      <package value="LeetCode/sort" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build LeetCode/697" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build LeetCode/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/697/697.go" />
-      <package value="LeetCode/697" />
+      <filePath value="$PROJECT_DIR$/test/test.go" />
+      <package value="LeetCode/test" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build LeetCode/765" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build LeetCode/test1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/765/765.go" />
-      <package value="LeetCode/765" />
+      <filePath value="$PROJECT_DIR$/test1/string.go" />
+      <package value="LeetCode/test1" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build LeetCode/697" />
-        <item itemvalue="Go Build.go build LeetCode/566" />
-        <item itemvalue="Go Build.go build LeetCode/561" />
-        <item itemvalue="Go Build.go build LeetCode/765" />
-        <item itemvalue="Go Build.go build LeetCode/485" />
+        <item itemvalue="Go Build.go build LeetCode/test1" />
+        <item itemvalue="Go Build.go build LeetCode/test" />
+        <item itemvalue="Go Build.go build LeetCode/sort" />
+        <item itemvalue="Go Build.go build LeetCode/704" />
+        <item itemvalue="Go Build.go build LeetCode/offer/53" />
       </list>
     </recent_temporary>
   </component>

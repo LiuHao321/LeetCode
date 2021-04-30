@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d176f31-edf2-4db8-887b-07bd5b228e2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/566/reshape-the-matrix.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/724/find-pivot-index.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1/1.go" beforeDir="false" afterPath="$PROJECT_DIR$/1/two-sum.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/146/146.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2/2.go" beforeDir="false" afterPath="$PROJECT_DIR$/2/add-two-numbers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/206/206.go" beforeDir="false" afterPath="$PROJECT_DIR$/206/reverse-linked-list.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/237/delete-node-in-a-linked-list.go" beforeDir="false" afterPath="$PROJECT_DIR$/237/delete-node-in-a-linked-list.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/select.go" beforeDir="false" afterPath="$PROJECT_DIR$/sort/select.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1/two-sum.go" beforeDir="false" afterPath="$PROJECT_DIR$/1/two-sum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2/add-two-numbers.go" beforeDir="false" afterPath="$PROJECT_DIR$/2/add-two-numbers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/206/reverse-linked-list.go" beforeDir="false" afterPath="$PROJECT_DIR$/206/reverse-linked-list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/3.go" beforeDir="false" afterPath="$PROJECT_DIR$/3/longest-substring-without-repeating-characters.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/485/485.go" beforeDir="false" afterPath="$PROJECT_DIR$/485/max-consecutive-ones.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/485/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/547/547.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/561/561.go" beforeDir="false" afterPath="$PROJECT_DIR$/561/array-partition-i.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/561/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/566/566.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/566/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/674/674.go" beforeDir="false" afterPath="$PROJECT_DIR$/674/longest-continuous-increasing-subsequence.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/697/697.go" beforeDir="false" afterPath="$PROJECT_DIR$/697/degree-of-an-array.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/697/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/704/704.go" beforeDir="false" afterPath="$PROJECT_DIR$/704/binary-search.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/704/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/724/724.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/765/765.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/765/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/766/766.go" beforeDir="false" afterPath="$PROJECT_DIR$/766/766.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,22 +70,22 @@
       <recent name="C:\Users\XiaomiPC\go\src\LeetCode\674" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build LeetCode/test1">
+  <component name="RunManager" selected="Go Build.go build LeetCode/561">
+    <configuration name="go build LeetCode/561" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/561/array-partition-i.go" />
+      <package value="LeetCode/561" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build LeetCode/704" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/704/704.go" />
       <package value="LeetCode/704" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build LeetCode/offer/53" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/offer/53/53.go" />
-      <package value="LeetCode/offer/53" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -102,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build LeetCode/561" />
         <item itemvalue="Go Build.go build LeetCode/test1" />
         <item itemvalue="Go Build.go build LeetCode/test" />
         <item itemvalue="Go Build.go build LeetCode/sort" />
         <item itemvalue="Go Build.go build LeetCode/704" />
-        <item itemvalue="Go Build.go build LeetCode/offer/53" />
       </list>
     </recent_temporary>
   </component>

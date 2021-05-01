@@ -10,8 +10,9 @@ import "fmt"
 
 func twoSum(nums []int, target int) []int {
 	for i := 0; i < len(nums); i++ {
+		x := target - nums[i]
 		for j := i + 1; j < len(nums); j++ {
-			if nums[i]+nums[j] == target {
+			if nums[j] == x {
 				return []int{i, j}
 			}
 		}
@@ -25,3 +26,14 @@ func main() {
 	fmt.Println(nums)
 	fmt.Println(twoSum(nums, target))
 }
+
+// 执行用时：
+//4 ms
+//, 在所有 Go 提交中击败了
+//90.26%
+//的用户
+//内存消耗：
+//3 MB
+//, 在所有 Go 提交中击败了
+//99.99%
+//的用户

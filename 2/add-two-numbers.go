@@ -15,31 +15,21 @@ type ListNode struct {
 //
 //你可以假设除了数字 0 之外，这两个数都不会以 0 开头。
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
-	sum := 0
 	res := &ListNode{}
-	carry := false
+	sum := 0
+	carry := 0
 	tmp := res
 	for true {
-		if carry {
-			sum = l1.Val + l2.Val + 1
-		} else {
-			sum = l1.Val + l2.Val
-		}
-		if sum >= 10 {
-			tmp.Next = &ListNode{Val: sum - 10}
-			carry = true
-		} else {
-			tmp.Next = &ListNode{Val: sum}
-			carry = false
-		}
+		sum = l1.Val + l2.Val + carry
+		tmp.Next = &ListNode{Val: sum % 10}
+		carry = sum / 10
 		tmp = tmp.Next
 		if l1.Next == nil && l2.Next == nil {
-			if carry {
+			if carry == 1 {
 				tmp.Next = &ListNode{Val: 1}
 			}
 			break
 		}
-
 		if l1.Next == nil {
 			l1.Val = 0
 		} else {
@@ -50,7 +40,6 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 		} else {
 			l2 = l2.Next
 		}
-
 	}
 	return res.Next
 }
@@ -58,10 +47,10 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 // 测试代码
 
 func main() {
-	num1 := []int{2, 4, 3}
-	num2 := []int{5, 6, 4}
-	//num1 := []int{9, 9, 9, 9, 9, 9, 9}
-	//num2 := []int{9, 9, 9, 9}
+	//num1 := []int{2, 4, 3}
+	//num2 := []int{5, 6, 4}
+	num1 := []int{9, 9, 9, 9, 9, 9, 9}
+	num2 := []int{9, 9, 9, 9}
 	// 生成原始链表
 
 	head1 := &ListNode{}
@@ -109,3 +98,14 @@ func main() {
 	}
 	fmt.Println(out)
 }
+
+//执行用时：
+//8 ms
+//, 在所有 Go 提交中击败了
+//92.29%
+//的用户
+//内存消耗：
+//4.6 MB
+//, 在所有 Go 提交中击败了
+//95.66%
+//的用户

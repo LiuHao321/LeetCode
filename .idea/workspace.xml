@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d176f31-edf2-4db8-887b-07bd5b228e2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/38/count-and-say.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/160/intersection-of-two-linked-lists.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/83/remove-duplicates-from-sorted-list.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/876/middle-of-the-linked-list.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
